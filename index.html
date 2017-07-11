@@ -22,7 +22,7 @@
         <label for="suit-type">SuperSuit Type: </label>
         <br>
             <select name="suit-type">
-                <option>Nonflammable</option>
+                <option>Antiflammable</option>
                 <option>Size Auto-Adjusting</option>
                 <option>Visibility Sensitive</option>
                 <option>Other</option>
@@ -57,19 +57,32 @@
             <textarea name="tagline"></textarea>
         <br>
         <br>
-        <label for="villains">Please indicate your associated villains. You may select more than one.
-            <input type="checkbox" name="Apocalocalypse" value="">
-            <input type="checkbox" name="Megamaxitron" value="">
-            <input type="checkbox" name="Dr. Brain Death" value="">
-            <input type="checkbox" name="Lord Bork" value="">
-            <input type="checkbox" name="Mechabitch Giganto" value="">
-            <input type="checkbox" name="Empress Endyou" value="">
-            <input type="checkbox" name="Big Fangs" value="">
-            <input type="checkbox" name="General Kronch" value="">
-        </label>
+        <label for="villains">Please indicate your associated nemesis. You may select more than one.</label>
+            <br>
+            <br>
+                <input type="checkbox" name="villains" value=""><label>Apocalocalypse</label>
+            <br>
+                <input type="checkbox" name="villains" value=""><label>Megamaxitron</label>
+            <br>
+                <input type="checkbox" name="villains" value=""><label>Dr. Brain Death</label>
+            <br>
+                <input type="checkbox" name="villains" value=""><label>Lord Bork</label>
+            <br>
+                <input type="checkbox" name="villains" value=""><label>Mechabitch Giganto</label>  
+            <br>
+                <input type="checkbox" name="villains" value=""><label>Empress Endyou</label>
+            <br>
+                <input type="checkbox" name="villains" value=""><label>General Kronch</label>
         <br>
         <br>
-        <label for="familiar">If applicable, please provide name and type for your companion animal.</label>
+        <label for="fam-description">If applicable, please provide name and short description of your companion animal.</label>
+            <br>
+            <br>
+            <label for="fam-name">Name: </label>
+                <input id="fam-name" type="text" name="fam-name" value="">
+            <br>
+            <label for="fam-type">Description: </label>
+                <input id="fam-name" type="text" name="fam-type" value="">
         <br>
         <br>
         <input type="submit">
