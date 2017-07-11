@@ -1,0 +1,12 @@
+h1.welcome {
+    border: 10px solid cyan;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
