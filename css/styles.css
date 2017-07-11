@@ -2,11 +2,30 @@ h1.welcome {
     border: 10px solid cyan;
     display: flex;
     justify-content: center;
+    color: white;
 
 }
 
-.container {
+.basic, .supersuit,
+.os, .bio, .tagline,
+.villains, .familiar {
+    background-color: rgba(0,0,0,0.3);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    padding: 2em;
+    margin: 1em;
+    border-radius: 40px;
+}
+
+.container, .justform {
+    border: 10px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    background-color: navy;
+    color: white;
 }
